@@ -1,6 +1,10 @@
 package MyFirstProject;
 import java.util.Scanner;
 
+// && == AND
+// || == OR
+// ! == NOT
+
 public class logicalOperators {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
