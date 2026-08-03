@@ -6,7 +6,7 @@ public class patterns {
 
         Scanner sc = new Scanner(System.in);
     
-        print6(5);
+        print7(5);
     }
 
 
@@ -92,6 +92,14 @@ static void print6(int n) {
     for(int i = 0; i < n; i++) {
         for(char ch = 'A'; ch <='A' + i; ch++) {
             System.out.print(ch);
+        }
+        System.out.println();
+    }
+}
+static void print7(int n) {
+    for(int i = 0; i < n; i++) {
+        for(char j = 'A' ; j <= 'A' + (n - i - 1); j++) {
+            System.out.print(j);
         }
         System.out.println();
     }
